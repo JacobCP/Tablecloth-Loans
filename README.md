@@ -34,6 +34,13 @@ Runtime 2016: https://www.microsoft.com/en-ca/download/details.aspx?id=50040
 
 Runtime 2013: https://www.microsoft.com/en-us/download/details.aspx?id=39358 
 
+The catalogs require the font IDAutomationHC39M, which used to be provided for free,
+but currently costs $159 for a
+https://www.idautomation.com/free-barcode-products/code39-font/single user license.
+
+This font may be an alternative, but it has not been tested.
+https://www.barcodesinc.com/free-barcode-font/
+
 Please note:
 Place both the front end and back end files in the same folder.
 You may need to close and reopen the front end file in order for the links to the back end file to become functional.
