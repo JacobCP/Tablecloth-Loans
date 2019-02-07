@@ -22,7 +22,7 @@ reservation confirmations, pickup and return reminders, and overdue return warni
 
 The sample files include real inventory data, 
 and randomly generate order/loan information when opening for the first time.
-The code that randomly generates the data is in mdlDemo, and is called from the 
+The system may take a minute or two as it silently generates the sample data.
 
 System Requirements:
 
@@ -30,19 +30,18 @@ The app was created with Access 2013, but a later version of Access should work 
 
 Download links:
 
-Runtime 2016: https://www.microsoft.com/en-ca/download/details.aspx?id=50040
+[Runtime 2016](https://www.microsoft.com/en-ca/download/details.aspx?id=50040)
 
-Runtime 2013: https://www.microsoft.com/en-us/download/details.aspx?id=39358 
+[Runtime 2013](https://www.microsoft.com/en-us/download/details.aspx?id=39358)
 
 The catalogs require the font IDAutomationHC39M, which used to be provided for free,
-but currently costs $159 for a
-https://www.idautomation.com/free-barcode-products/code39-font/single user license.
+but currently costs $159 for a [user license](https://www.idautomation.com/free-barcode-products/code39-font/single).
 
 This font may be an alternative, but it has not been tested.
 https://www.barcodesinc.com/free-barcode-font/
 
 Please note:
-Place both the front end and back end files in the same folder.
+Place both the [front end](https://github.com/JacobCP/Tablecloth-Loans/raw/master/TableclothLending.accdb) and [back end](https://github.com/JacobCP/Tablecloth-Loans/raw/master/TableclothLending_be.accdb) files in the same folder.
 You may need to close and reopen the front end file in order for the links to the back end file to become functional.
 
 Administrative tabs are hidden by default, and can be shown by using the CTRL+G shortcut.
@@ -53,5 +52,5 @@ Because of Microsoft issues, emails may not automatically send from Outlook, unt
 # Coding/Design Style
 I wrote the code over the span of a few months, during which I was learning Microsoft Access.
 A lot of the code and design style is therefore inconsistent, and the earlier work often does not follow recommended practices.
-The mdlDemo code that populates the database with random order data was written recently, and is a good reference for my current
+The [mdlDemo code](https://github.com/JacobCP/Tablecloth-Loans/blob/master/mdlDemo.vba) that populates the database with random order data was written recently, and is a good reference for my current
 level of coding skill in VBA and SQL, and functional programming design.
