@@ -14,7 +14,7 @@ Implements a comprehensive system to manage:
   * fees
   * payments
 
-To facilitate a quicker task flow, App includes the ability to print out picture catalogs of inventory items 
+To facilitate a quicker task flow, App includes the ability to print out picture catalogs of inventory items (see [sample](https://github.com/JacobCP/Tablecloth-Loans/raw/master/Tablecloths_Catalog_March%2013_%202018.pdf)) 
 and integrates with off-the-shelf bar code scanners.
 
 App integrates with Outlook and uses automatically populated templates to send, or print out, 
